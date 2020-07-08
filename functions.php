@@ -12,7 +12,8 @@ if ( ! defined( 'VELLA_BUILD_URI' ) ) {
 
 function vella_add_theme_scripts() {
 
-	wp_enqueue_style( 'main', VELLA_BUILD_URI . '/css/main.css', false, '1.1', 'all' );
+	wp_enqueue_style( 'main-css', VELLA_BUILD_URI . '/css/main.css', false, '1.1', 'all' );
+	wp_enqueue_script( 'main-js', VELLA_BUILD_URI . '/js/main.js', [ 'jquery' ], 1.1, true );
 
 }
 
