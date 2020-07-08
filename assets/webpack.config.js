@@ -1,7 +1,7 @@
 /**
  * Webpack config
  *
- * @package area2071-app-feature
+ * @package vela
  */
 
 const DEV = 'production' !== process.env.NODE_ENV;
