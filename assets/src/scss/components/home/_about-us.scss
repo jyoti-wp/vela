@@ -1,0 +1,39 @@
+.section-two {
+
+    .text-area-about-us {
+
+        position: relative;
+        margin-bottom: 50px;
+
+        h1 {
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        h1:after {
+            content:'';
+            position: absolute;
+            width: 100px;
+            height: 1px;
+            left: 860px;
+            border: 2px solid #E73587;
+            display: block;
+        }
+
+        p {
+            font-family: Avenir Next;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #2B2B2B;
+            margin-top: 40px;
+        }
+    }
+}

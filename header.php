@@ -19,5 +19,18 @@
 </head>
 <body>
 <header>
-	Header
+	<div class="header-box">
+		<div class="wrapper">
+			<div class="main-header">
+				<div class="header-container">
+					<div class="logo-image">
+						<?php if ( function_exists( 'the_custom_logo' ) ) {the_custom_logo();} ?>
+					</div>
+					<div class="menu">
+						<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>

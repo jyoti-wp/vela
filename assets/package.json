@@ -8,8 +8,8 @@
 		"dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
 		"eslint:fix": "eslint --fix src/js/*",
 		"eslint": "eslint src/js/*",
-	  	"stylelint": "stylelint src/scss/**/*.scss --syntax scss",
-	  	"stylelint:fix": "stylelint --fix src/scss/**/*.scss --syntax scss"
+		"stylelint": "stylelint src/scss/**/*.scss --syntax scss",
+		"stylelint:fix": "stylelint --fix src/scss/**/*.scss --syntax scss"
 	},
 	"keywords": [
 		"features-plugin"

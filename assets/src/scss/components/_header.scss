@@ -1,0 +1,30 @@
+.header-box {
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1449px;
+        width: 100%;
+    }
+
+    .logo-image {
+        background-color: #020E35;
+        padding: 20px;
+    }
+    .main-header {
+
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    li {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}

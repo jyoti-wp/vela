@@ -1,0 +1,44 @@
+.section-one {
+    padding-bottom: 40px;
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1400px;
+        width: 100%;
+    }
+    .main-container {
+
+        display: flex;
+
+        .text-area-section {
+            width: 45%;
+            padding-top: 115px;
+
+            h1 {
+                height: 363px;
+                left: 135px;
+                top: 252px;
+                font-family: Quicksand;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 97px;
+                line-height: 121px;
+                color: #020E35;
+            }
+
+            button {
+                position: absolute;
+                width: 125px;
+                height: 40px;
+                background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+                color: white;
+                text-decoration: none;
+                border: none;
+            }
+        }
+
+        .image-area-section {
+            width: 50%;
+        }
+    }
+}
