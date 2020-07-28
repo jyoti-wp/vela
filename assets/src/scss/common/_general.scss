@@ -3,11 +3,22 @@ html {
 }
 
 .wrapper{
-	margin: auto 0;
+	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
+	max-width: $site_width;
+	padding: 0 30px;
 
 	@media screen and (min-width: $desktop ) {
-		max-width: 100%;
+		padding: 0;
 	}
+}
+
+a {
+	text-decoration: none;
+	color: $text-color;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }

@@ -1,30 +1,98 @@
 .header-box {
 
-    .wrapper {
-        margin: 0 auto;
-        max-width: 1449px;
-        width: 100%;
-    }
+	.logo-image {
+		background-color: #020E35;
+		padding: 20px;
+	}
 
-    .logo-image {
-        background-color: #020E35;
-        padding: 20px;
-    }
-    .main-header {
+	.wrapper {
+		@media screen and (max-width: $desktop ) {
+			padding: 0;
+		}
+	}
 
-    }
+	.main-header {
 
-    .header-container {
-        display: flex;
-    }
+	}
 
-    .menu {
-        display: flex;
-    }
+	.header-container {
+		display: flex;
+		justify-content: space-between;
+	}
 
-    li {
-        text-decoration: none;
-        list-style: none;
-        color: black;
-    }
+	.header-menu-wrap {
+		display: block;
+	}
+
+	.menu-header-menu-container {
+
+		ul.menu {
+			display: flex;
+			padding: 20px 0;
+
+			@media screen and (max-width: $desktop ) {
+				position: absolute;
+				display: block;
+				top: 4.75rem;
+				background: white;
+				left: 0;
+				width: 100%;
+				border-bottom: 1px solid #cbcbcb;
+				display: none;
+			}
+
+			// Direct child of ul.
+			> li.menu-item {
+				position: relative;
+				text-decoration: none;
+				list-style: none;
+				color: black;
+
+				// links.
+				a {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 16px;
+					letter-spacing: 0.8px;
+					padding: 12px 15px;
+					display: inline-block;
+					margin: 0 10px;
+				}
+
+				@media screen and (min-width: $desktop ) {
+					// On hover of menu item, show submenu.
+					&:hover {
+						ul.sub-menu {
+							display: block;
+						}
+					}
+				}
+			}
+
+			> li:last-child {
+				background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+				a {
+					color: $white;
+				}
+
+				@media screen and (max-width: $desktop ) {
+					display: inline-block;
+				}
+			}
+		}
+
+		// Submenu
+		ul.sub-menu {
+			display: none;
+			background-color: $white;
+			position: absolute;
+		}
+	}
+}
+
+.burger-menu-icon {
+
+	@media screen and (max-width: $desktop ) {
+		display: none;
+	}
 }

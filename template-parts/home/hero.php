@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="main-container">
             <div class="text-area-section">
-                <h1>we creat content that ranks</h1>
+                <h1>We create content that ranks</h1>
                 <button>see our work</button>
             </div>
             <div class="image-area-section">

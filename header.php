@@ -26,9 +26,10 @@
 					<div class="logo-image">
 						<?php if ( function_exists( 'the_custom_logo' ) ) {the_custom_logo();} ?>
 					</div>
-					<div class="menu">
+					<div class="header-menu-wrap">
 						<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 					</div>
+<!--					<div class="burger-menu-icon">☰</div>-->
 				</div>
 			</div>
 		</div>
