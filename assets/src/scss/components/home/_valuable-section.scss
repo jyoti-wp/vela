@@ -1,102 +1,123 @@
 .our-valuable-services {
-    margin-top: 100px;
-    margin-bottom: -315px;
+	margin-top: 100px;
+	margin-bottom: -315px;
+	text-align: center;
 
-    h2 {
-        font-family: Quicksand;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 50px;
-        text-align: center;
-        text-transform: capitalize; 
-        margin-bottom: 40px;       
-    }
+	h2 {
+		font-family: Quicksand;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+		position: relative;
+		text-transform: capitalize;
+		margin-bottom: 40px;
+		display: inline-block;
+	}
 
-    h2:after {
-        content:'';
-        position: absolute;
-        width: 100px;
-        height: 1px;
-        left: 860px;
-        border: 2px solid #E73587;
-        display: block;
-    }
+	h2:after {
+		content: '';
+		position: absolute;
+		width: 100px;
+		height: 1px;
+		border: 2px solid #E73587;
+		display: block;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
 
-    button {
-        width: 107px;
-        height: 40px;
-        background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-        color: white;
-        text-decoration: none;
-        border: none;
-        left: 115px;
-        display: block;
-        position: relative;
-        text-transform: capitalize;
-    }
+	button {
+		width: 107px;
+		height: 40px;
+		background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+		color: white;
+		text-decoration: none;
+		border: none;
+		display: block;
+		position: relative;
+		text-transform: capitalize;
 
-    .template-area {
-        display: flex;
-        justify-content: center;
-    }
+		@media screen and (min-width: $mobile ) {
+			//left: 115px;
+		}
+	}
 
-    .first-section,
-    .second-section,
-    .third-section {
-        width: 20%;
-        margin-right: 20px;
-    }
+	.template-area {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
 
-    .first-section {
-        background-color: #FDF8E3;
+		@media screen and (min-width: $mobile ) {
+			flex-direction: row;
+		}
+	}
 
-    }
+	.first-section,
+	.second-section,
+	.third-section {
+		text-align: center;
+		margin-bottom: 48px;
+		@media screen and (min-width: $mobile ) {
+			width: 23.5%;
+			margin-right: 20px;
+			margin-bottom: 0;
+		}
+	}
 
-    .part-one {
-        padding-top: 20px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
+	.first-section {
+		background-color: #FDF8E3;
 
-    .part-three {
-        position: relative;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+	}
 
-    .second-section {
-        background-color: #F0F3FA;
-    }
+	.part-one {
+		padding-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
 
-    .third-section {
-        background-color: #FEEFF0;
-    }
+	.part-three {
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
 
-    h5 {
-        font-family: Avenir Next;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 27px;
-        text-align: center;
-        color: #2B2B2B;
-        text-transform: capitalize;
-        margin-bottom: 20px;
-        }
-    
-    p {
-        font-family: Avenir Next;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 27px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+	.second-section {
+		background-color: #F0F3FA;
+	}
 
-    img {
-        width: 350px;
-        height: 315px;
-    }
+	.third-section {
+		background-color: #FEEFF0;
+	}
+
+	h5 {
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 27px;
+		text-align: center;
+		color: #2B2B2B;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 27px;
+		text-align: center;
+		margin-bottom: 20px;
+
+		@media screen and (min-width: $mobile ) {
+			padding: 0 20px;
+		}
+	}
+
 }

@@ -1,191 +1,193 @@
 .our-work-section {
-    background-color: #020E35;
-    padding-top: 450px;
-    padding-bottom: 100px;
+	background-color: #020E35;
+	padding-top: 450px;
+	padding-bottom: 100px;;
 
-    .wrapper {
-        margin: 0 auto;
-        max-width: 1449px;
-        width: 100%;
-    }
+	img {
+		width: 450px;
+		height: 400px;
+	}
 
-    img {
-        width: 450px;
-        height: 400px;
-    }
+	.introduction-wrap {
+		text-align: center;
+	}
 
-    h5 {
-        font-family: Quicksand;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 50px;
-        text-align: center;
-        color: #FFFFFF;
-        padding-bottom: 60px;
-        text-transform: capitalize;
-    }
+	h5 {
+		font-family: Quicksand;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+		color: #FFFFFF;
+		padding-bottom: 60px;
+		text-transform: capitalize;
+		position: relative;
+		display: inline-block;
+	}
 
-    h5:after {
-        content:'';
-        position: absolute;
-        width: 100px;
-        height: 1px;
-        left: 860px;
-        border: 2px solid #E73587;
-        display: block;
-    }
+	h5:after {
+		content: '';
+		position: absolute;
+		width: 100px;
+		height: 1px;
+		border: 2px solid #E73587;
+		display: block;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
 
-    h3 {
-        font-family: Avenir Next;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 41px;
-        color: white;
-        text-transform: capitalize;
-    }
+	h3 {
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 41px;
+		color: white;
+		text-transform: capitalize;
+	}
 
-    h4 {
-        font-family: Avenir Next;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 22px;
-        color: #FFFFFF;
-        text-transform: capitalize;
-    }
+	h4 {
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #FFFFFF;
+		text-transform: capitalize;
+	}
 
-    p {
-        font-family: Avenir Next;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 22px;
-        color: #FFFFFF;
-        margin-top: 45px;
-    }
+	p {
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #FFFFFF;
+		margin-top: 45px;
+	}
 
-    .button-new {
-        position: relative;
+	.button-new {
+		position: relative;
 
-        button{
-            width: 170px;
-            height: 45px;
-            left: 660px;
-            background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
-            color: white;
-            text-decoration: none;
-            border: none;
-            display: block;
-            position: absolute;
-            font-size: 18px;
-            text-transform: capitalize;
-        }
-    }
+		button {
+			width: 170px;
+			height: 45px;
+			left: 660px;
+			background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+			color: white;
+			text-decoration: none;
+			border: none;
+			display: block;
+			position: absolute;
+			font-size: 18px;
+			text-transform: capitalize;
+		}
+	}
 
-                             //    image area one 
+	//    image area one
 
-    .image-area-one {
-        padding-bottom: 60px;
+	.image-area-one {
+		padding-bottom: 60px;
 
-        .column {
-            display: flex;
-            margin-left: 135px;
-    
-                                // image section one 
+		.column {
+			display: flex;
+			margin-left: 135px;
 
-            .image-section-one {
-                background-color: #F09532;
-                padding: 50px 90px;
-            }
+			// image section one
 
-            .review {
-                padding-left: 40px;
-            }
-        }
-    }
+			.image-section-one {
+				background-color: #F09532;
+				padding: 50px 90px;
+			}
 
-                             //    image area two
+			.review {
+				padding-left: 40px;
+			}
+		}
+	}
 
-    .image-area-two {
-        padding-bottom: 60px;
+	//    image area two
 
-        .column {
-            display: flex;
-            flex-direction: row-reverse;
-        }
+	.image-area-two {
+		padding-bottom: 60px;
 
-                                // image section two
+		.column {
+			display: flex;
+			flex-direction: row-reverse;
+		}
 
-        .image-section-two {
-            background-color: #8C32F0;
-            padding: 50px 90px;
-        }
+		// image section two
 
-        .review {
-            padding-right: 40px;
+		.image-section-two {
+			background-color: #8C32F0;
+			padding: 50px 90px;
+		}
 
-            h3 {
-                text-align: end;
-            }
+		.review {
+			padding-right: 40px;
 
-            p {
-                text-align: end;
-            }
-        }
-    }
+			h3 {
+				text-align: end;
+			}
 
-                                    // image area three
-    
-    .image-area-three {
-        padding-bottom: 60px;
+			p {
+				text-align: end;
+			}
+		}
+	}
 
-        .column {
-            display: flex;
-            margin-left: 135px;
-        }
+	// image area three
+
+	.image-area-three {
+		padding-bottom: 60px;
+
+		.column {
+			display: flex;
+			margin-left: 135px;
+		}
 
 
-                            // image section three
+		// image section three
 
-        .image-section-three {
-            background-color: #E73587;
-            padding: 50px 90px;
-        }
+		.image-section-three {
+			background-color: #E73587;
+			padding: 50px 90px;
+		}
 
-        .review {
-            padding-left: 40px;
-        }
-    }
+		.review {
+			padding-left: 40px;
+		}
+	}
 
-                            // image area four
-    
-    .image-area-four {
-        padding-bottom: 60px;
+	// image area four
 
-        .column {
-            display: flex;
-            margin-left: 135px;
-            flex-direction: row-reverse;
-        }
+	.image-area-four {
+		padding-bottom: 60px;
 
-                            // image section four
-        .image-section-four {
-            background-color: #32D6F0;
-            padding: 50px 90px;
-        }
+		.column {
+			display: flex;
+			margin-left: 135px;
+			flex-direction: row-reverse;
+		}
 
-        .review {
-            padding-right: 40px;
+		// image section four
+		.image-section-four {
+			background-color: #32D6F0;
+			padding: 50px 90px;
+		}
 
-            h3 {
-                text-align: end;
-            }
+		.review {
+			padding-right: 40px;
 
-            p {
-                text-align: end;
-            }
-        }
-    }
+			h3 {
+				text-align: end;
+			}
+
+			p {
+				text-align: end;
+			}
+		}
+	}
 }

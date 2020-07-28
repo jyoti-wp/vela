@@ -1,6 +1,8 @@
 <div class="our-work-section">
     <div class="wrapper">
-        <h5 class="introduction">our work</h5>
+        <div class="introduction-wrap">
+	        <h5 class="introduction">our work</h5>
+        </div>
         <div class="main-image-area-section">
             <div class="image-area-one">
                 <div class="column">
