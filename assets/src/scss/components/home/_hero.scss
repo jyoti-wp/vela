@@ -1,6 +1,11 @@
 .section-one {
 	padding-bottom: 40px;
 
+	@media screen and (min-width: $mobile) {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
 	.main-container {
 
 		display: flex;
@@ -46,10 +51,16 @@
 				color: white;
 				text-decoration: none;
 				border: none;
+				text-transform: capitalize;
 			}
 		}
 
 		.image-area-section {
+
+			@media screen and (min-width: $mobile) {
+				margin-top: 60px;
+    			padding-right: 40px;
+			}
 
 			img {
 				@media screen and (min-width: $desktop ) {
