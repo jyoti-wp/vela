@@ -447,7 +447,8 @@ img {
   height: auto; }
 
 .section-one {
-  padding-bottom: 2.5rem; }
+  padding-right: 0.625rem;
+  padding-left: 0.625rem; }
   .section-one .main-container {
     display: flex;
     flex-direction: column; }
@@ -787,14 +788,8 @@ article {
     font-style: normal;
     font-weight: normal;
     font-size: 1.25rem;
-    line-height: 1.6875rem;
+    line-height: 1.875rem;
     padding-top: 0.9375rem; }
-
-figure {
-  padding-top: 2.5rem; }
-  figure img {
-    width: 37.5rem;
-    height: 18.75rem; }
 
 figcaption {
   font-size: 1.25rem;
@@ -803,7 +798,52 @@ figcaption {
   /* text-align: center; */
   text-transform: capitalize; }
 
-@media print, screen and (min-width: 40em) {
+aside {
+  padding-left: 1.25rem;
+  list-style: none;
+  text-decoration: none; }
+  aside h2 {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    padding-top: 1.25rem;
+    text-transform: capitalize; }
+  aside caption,
+  aside .textwidget {
+    font-family: Avenir Next;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: left; }
+  aside th {
+    padding-right: 0.625rem; }
+  aside td {
+    padding-right: 0.625rem;
+    padding-bottom: 0.625rem; }
+  aside tr {
+    padding-bottom: 1.25rem; }
+  aside ul {
+    padding-top: 1.25rem; }
+  aside a {
+    font-family: Avenir Next;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: left; }
+  aside .widget_media_image {
+    border: 1px solid; }
+    aside .widget_media_image h2 {
+      text-align: center;
+      padding-bottom: 0.9375rem;
+      border: 1px solid; }
+    @media print, screen and (min-width: 40em) {
       .row .row {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; }
@@ -952,11 +992,11 @@ figcaption {
     flex-direction: column-reverse; }
   .hide-for-medium {
     display: none !important; } }
-
-@media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) {
     .section-one {
-      padding-right: 0.625rem;
-      padding-left: 0.625rem; }
+      padding-bottom: 2.5rem;
+      padding-left: 0;
+      padding-right: 0; }
       .section-one .main-container {
         flex-direction: row; }
         .section-one .main-container .text-area-section {
@@ -996,28 +1036,22 @@ figcaption {
       .comment-section h2 {
         font-size: 5.625rem;
         line-height: 6.875rem; } }
-
-@media print, screen and (min-width: 40em) and (min-width: 40em) {
+    @media print, screen and (min-width: 40em) and (min-width: 40em) {
   .medium-expand {
     flex: 1 1 0px; } }
-
-@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
+    @media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
   .hide-for-medium-only {
     display: none !important; } }
-
-@media screen and (max-width: 0em), screen and (min-width: 40em) {
+    @media screen and (max-width: 0em), screen and (min-width: 40em) {
   .show-for-small-only {
     display: none !important; } }
-
-@media screen and (max-width: 39.99875em), screen and (min-width: 64em) {
+    @media screen and (max-width: 39.99875em), screen and (min-width: 64em) {
   .show-for-medium-only {
     display: none !important; } }
-
-@media print, screen and (min-width: 64em) and (min-width: 64em) {
+    @media print, screen and (min-width: 64em) and (min-width: 64em) {
   .large-expand {
     flex: 1 1 0px; } }
-
-@media print, screen and (min-width: 64em) {
+    @media print, screen and (min-width: 64em) {
       .row .row {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; }
@@ -1159,12 +1193,10 @@ figcaption {
     flex-direction: column-reverse; }
   .hide-for-large {
     display: none !important; } }
-
-@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+    @media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
   .hide-for-large-only {
     display: none !important; } }
-
-@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
       .header-box .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
         display: block; }
     .wrapper {
@@ -1177,32 +1209,27 @@ figcaption {
         width: 118%; }
       .header-box .menu-header-menu-container ul.menu > li.menu-item:hover ul.sub-menu {
         display: block; } }
-
-@media screen and (max-width: 63.99875em), screen and (min-width: 75em) {
+    @media screen and (max-width: 63.99875em), screen and (min-width: 75em) {
   .show-for-large-only {
     display: none !important; } }
-
-@media screen and (max-width: 39.99875em) {
+    @media screen and (max-width: 39.99875em) {
   .show-for-medium {
     display: none !important; } }
-
-@media screen and (orientation: landscape) {
+    @media screen and (orientation: landscape) {
     .show-for-landscape,
     .hide-for-portrait {
       display: block !important; }
     .hide-for-landscape,
     .show-for-portrait {
       display: none !important; } }
-
-@media screen and (orientation: portrait) {
+    @media screen and (orientation: portrait) {
     .show-for-landscape,
     .hide-for-portrait {
       display: none !important; }
     .hide-for-landscape,
     .show-for-portrait {
       display: block !important; } }
-
-@media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
   .header-box .wrapper {
     padding: 0; }
     .header-box .menu-header-menu-container ul.menu {
@@ -1233,12 +1260,10 @@ figcaption {
         display: inline-block; }
   .burger-menu-icon {
     display: none; } }
-
-@media screen and (max-width: 63.99875em) {
+    @media screen and (max-width: 63.99875em) {
   .show-for-large {
     display: none !important; } }
-
-@media print, screen and (max-width: 39.99875em) {
+    @media print, screen and (max-width: 39.99875em) {
   .hide-for-small-only {
     display: none !important; } }
 

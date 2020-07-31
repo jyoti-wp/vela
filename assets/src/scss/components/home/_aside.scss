@@ -1,0 +1,76 @@
+aside {
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+
+    h2 {
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+        text-transform: capitalize;
+    }
+
+    caption,
+    .textwidget {
+        font-family: Avenir Next;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-transform: capitalize;
+        font-weight: 900;
+        text-align: left;
+    }
+    
+    th {
+        padding-right: 10px;
+    }
+
+    td {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    tr {
+        padding-bottom: 20px;
+    }
+
+    ul {
+        padding-top: 20px;
+    }
+
+    a {
+    font-family: Avenir Next;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: left;
+    }
+
+    .textwidget {
+        
+    }
+
+    .widget_media_image {
+
+        border: 1px solid;
+        h2 {
+            text-align: center;
+            padding-bottom: 15px;
+            border: 1px solid;
+        }
+    }
+
+    .widget_nav_menu {
+
+    }
+
+    .menu-header-menu-container {
+        
+    }
+}
