@@ -3,17 +3,40 @@ aside {
     list-style: none;
     text-decoration: none;
 
-    h2 {
-        font-family: Quicksand;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 30px;
-        padding-top: 20px;
-        text-transform: capitalize;
+        h2 {
+            font-family: Quicksand;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            padding-top: 20px;
+            text-transform: capitalize;
+        }
+
+    .widget_archive {
+
+        h2 {
+            font-family: Quicksand;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            padding-top: 20px;
+            text-transform: capitalize;
+        }
     }
 
-    caption,
-    .textwidget {
+    .widget_text {
+
+        h2 {
+            font-family: Quicksand;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            padding-top: 20px;
+            text-transform: capitalize;
+        }
+    }
+
+    caption {
         font-family: Avenir Next;
         font-size: 20px;
         line-height: 30px;
@@ -22,6 +45,15 @@ aside {
         text-transform: capitalize;
         font-weight: 900;
         text-align: left;
+    }
+
+    .textwidget {
+        font-family: Avenir Next;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px;
+        text-transform: capitalize;
+        text-align: center;
     }
     
     th {
@@ -56,13 +88,41 @@ aside {
         
     }
 
+    .widget_nav_menu {
+
+        h2 {
+            text-align: left;
+        }
+    }
+
+    .menu {
+
+        a {
+            font-weight: 200;
+        }
+
+        li {
+            padding-bottom: 3px;
+        }
+
+        ul {
+            padding-bottom: 20px;
+        }
+    }
+
     .widget_media_image {
 
         border: 1px solid;
+
         h2 {
-            text-align: center;
-            padding-bottom: 15px;
+            font-family: Quicksand;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            padding-top: 20px;
+            text-transform: capitalize;
             border: 1px solid;
+            text-align: center;
         }
     }
 
@@ -70,7 +130,43 @@ aside {
 
     }
 
-    .menu-header-menu-container {
+    .widget_search {
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+
+        }
+    }
+
+    .widget_recent_comments {
+
+        padding-bottom: 20px;
+
+        h2 {
+            text-align: left;
+        }
+
+        a {
+            font-weight: 200;
+        }
+    }
+
+    .widget_media_video {
+
+        h2 {
+            text-align: left;
+            padding-bottom: 20px;
+        }
+
+        a {
+            font-weight: 200;
+        }
+    }
+
+    .widget_categories {
         
     }
 }
