@@ -1,0 +1,37 @@
+.widget_text {
+    width: 100%;
+    background: #FFFEE4;
+    padding: 0 20px;
+    color: #607779;
+    padding: 38px;
+
+    h2 {
+        font-size: 20px;
+        line-height: 20px;
+        background: #607779;
+        color: #FFFEE4;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .textwidget {
+        margin-top: 30px;
+    }
+
+    p {
+        background: #D3D3D3;
+        border-radius: 10px;
+        box-shadow: inset 0px 4px rgba(0, 0, 0, 0.1);   
+        padding: 60px;
+    }
+
+    .widget_pages {
+        background: #607779;
+        width: 100%;
+        display: table;
+        margin: 2rem auto 0;
+        margin-top: 40px;
+    }
+}

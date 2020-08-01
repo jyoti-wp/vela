@@ -907,25 +907,82 @@ figcaption {
     .widget_nav_menu li a {
       color: gray;
       padding: 0.9375rem;
-      display: block; }
+      display: block;
+      letter-spacing: 0.3125rem; }
 
 .widget_recent_comments {
   border: 1px solid gray;
   width: 100%;
-  padding: 2.375rem; }
+  padding: 2.375rem;
+  margin-bottom: 1.25rem; }
   .widget_recent_comments h2 {
     color: #5a5959;
     font-size: 1.375rem;
     font-weight: 400;
     letter-spacing: 1px;
     padding-bottom: 0.9375rem; }
-  .widget_recent_comments a {
+  .widget_recent_comments .recentcomments a {
     display: block !important;
     line-height: 2.0625rem;
     border-bottom: 1px solid #c3c2c2;
     font-size: 0.875rem;
     font-weight: normal;
     letter-spacing: 1px; }
+
+.widget_text {
+  width: 100%;
+  background: #FFFEE4;
+  padding: 0 1.25rem;
+  color: #607779;
+  padding: 2.375rem; }
+  .widget_text h2 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    background: #607779;
+    color: #FFFEE4;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1.25rem;
+    border-radius: 0.625rem; }
+  .widget_text .textwidget {
+    margin-top: 1.875rem; }
+  .widget_text p {
+    background: #D3D3D3;
+    border-radius: 0.625rem;
+    box-shadow: inset 0px 0.25rem rgba(0, 0, 0, 0.1);
+    padding: 3.75rem; }
+  .widget_text .widget_pages {
+    background: #607779;
+    width: 100%;
+    display: table;
+    margin: 2rem auto 0;
+    margin-top: 2.5rem; }
+
+.widget_pages {
+  width: 100%;
+  margin: 2.5rem 0px; }
+  .widget_pages h2 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    color: #FFFEE4;
+    text-transform: capitalize;
+    background-color: #607779;
+    padding: 1.25rem;
+    width: 100%; }
+  .widget_pages ul {
+    background: #FFFEE4;
+    padding: 1.25rem;
+    width: 100%; }
+    .widget_pages ul li {
+      border-bottom: 1px solid #607779;
+      line-height: 1.5;
+      padding: 0.5rem 0; }
+      .widget_pages ul li a {
+        color: #607779;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: Ruluko;
+        padding: 0.625rem; }
 
 aside {
   list-style: none;
