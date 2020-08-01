@@ -1,0 +1,51 @@
+.widget_calendar {
+
+    .wp-calendar-table {
+        width: 100%;    
+    }
+
+    caption {
+        border: none;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        color: #607779;
+        padding-bottom: 20px;
+    }
+
+    .calendar_wrap {
+        box-shadow: 2px 5px 6px 0 rgba(0, 0, 0, 0.2);
+        background: #FFFEE4;
+        border-radius: 5px;
+        border: 1px solid #dcdcff;
+        padding: 2em;
+        /* margin: 18px; */
+        margin: 2em auto 0;
+        width: 100%;
+    }
+
+    h2 {
+        border: none;
+        color: #FFFEE4;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        background: #607779;
+        padding: 20px;
+        width: 100%;
+        margin-left: 10px;
+        text-align: center;
+        font-family: Avenir Next;
+    }
+
+    th {
+        height: 48px;
+        text-align: center;
+        vertical-align: middle;
+        padding-right: 25px;
+        color: #607779;
+    }
+
+    td {
+        color: #607779;
+        padding: 5px;
+    }
+}

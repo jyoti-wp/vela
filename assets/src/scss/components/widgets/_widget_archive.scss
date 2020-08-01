@@ -1,0 +1,23 @@
+.widget_archive {
+
+    margin-top: 40px;
+
+    background-color: #f3f6f8;
+    border: 1px solid #e9eff3;
+
+    h2 {
+        color: black;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        padding: 20px;
+        width: 100%;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    label {
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

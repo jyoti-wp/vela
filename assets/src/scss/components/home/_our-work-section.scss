@@ -86,8 +86,7 @@
 	}
 
 	.main-image-area-section {
-		margin-right: 30px;
-    	margin-left: 10px;
+		
 	}
 
 	//    image area one
@@ -108,22 +107,6 @@
 				@media screen and (min-width: $mobile ) {
 					padding-left: 40px;
 				}
-
-				h3 {
-					text-align: end;
-	
-					@media screen and (min-width: $mobile) {
-						text-align: center;
-					}
-				}
-	
-				p {
-					text-align: end;
-	
-					@media screen and (min-width: $mobile) {
-						text-align: center;
-					}
-				}
 			}
 		}
 	}
@@ -142,23 +125,15 @@
 
 		.review {
 			@media screen and (min-width: $mobile ) {
-				padding-top: 20px;
+				padding-right: 40px;
 			}
 
 			h3 {
 				text-align: end;
-
-				@media screen and (min-width: $mobile) {
-					text-align: center;
-				}
 			}
 
 			p {
 				text-align: end;
-
-				@media screen and (min-width: $mobile) {
-					text-align: center;
-				}
 			}
 		}
 	}

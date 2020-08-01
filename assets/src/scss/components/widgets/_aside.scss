@@ -1,0 +1,16 @@
+@import '../widgets/widget_calander';
+@import '../widgets/widget_archive';
+@import '../widgets/widget_media_gallery';
+@import '../widgets/widget_nav_menu';
+@import '../widgets/widget_recent_comments';
+
+aside {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+    width: 100%;
+
+    a {
+        display: block;
+    }
+}

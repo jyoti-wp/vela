@@ -1,0 +1,23 @@
+.widget_recent_comments {
+
+    border: 1px solid gray;
+    width: 100%;
+    padding: 38px;
+
+    h2 {
+        color: #5a5959;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        display: block !important;
+        line-height: 33px;
+        border-bottom: 1px solid #c3c2c2;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+}

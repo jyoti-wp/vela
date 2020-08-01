@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Ruluko);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
 /**
  * Front end styles.
  */
@@ -385,6 +388,7 @@ table {
   border-spacing: 0; }
 
 a {
+  display: block !important;
   text-decoration: none; }
 
 i {
@@ -440,6 +444,7 @@ html {
 
 a {
   text-decoration: none;
+  display: block !important;
   color: #000; }
 
 img {
@@ -690,18 +695,11 @@ img {
       position: absolute;
       font-size: 1.125rem;
       text-transform: capitalize; }
-  .our-work-section .main-image-area-section {
-    margin-right: 1.875rem;
-    margin-left: 0.625rem; }
   .our-work-section .image-area-one {
     padding-bottom: 3.75rem; }
     .our-work-section .image-area-one .column .image-section-one, .our-work-section .image-area-one .columns .image-section-one {
       background-color: #F09532;
       padding: 3.125rem 5.625rem; }
-    .our-work-section .image-area-one .column .review h3, .our-work-section .image-area-one .columns .review h3 {
-      text-align: end; }
-    .our-work-section .image-area-one .column .review p, .our-work-section .image-area-one .columns .review p {
-      text-align: end; }
   .our-work-section .image-area-two {
     padding-bottom: 3.75rem; }
     .our-work-section .image-area-two .image-section-two {
@@ -798,97 +796,144 @@ figcaption {
   /* text-align: center; */
   text-transform: capitalize; }
 
+.widget_calendar .wp-calendar-table {
+  width: 100%; }
+
+.widget_calendar caption {
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #607779;
+  padding-bottom: 1.25rem; }
+
+.widget_calendar .calendar_wrap {
+  box-shadow: 0.125rem 0.3125rem 0.375rem 0 rgba(0, 0, 0, 0.2);
+  background: #FFFEE4;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcff;
+  padding: 2em;
+  /* margin: 18px; */
+  margin: 2em auto 0;
+  width: 100%; }
+
+.widget_calendar h2 {
+  border: none;
+  color: #FFFEE4;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background: #607779;
+  padding: 1.25rem;
+  width: 100%;
+  margin-left: 0.625rem;
+  text-align: center;
+  font-family: Avenir Next; }
+
+.widget_calendar th {
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 1.5625rem;
+  color: #607779; }
+
+.widget_calendar td {
+  color: #607779;
+  padding: 0.3125rem; }
+
+.widget_archive {
+  margin-top: 2.5rem;
+  background-color: #f3f6f8;
+  border: 1px solid #e9eff3; }
+  .widget_archive h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 1.25rem;
+    width: 100%;
+    margin-left: 0.625rem;
+    text-align: center; }
+  .widget_archive label {
+    text-transform: capitalize;
+    font-size: 0.9375rem;
+    font-weight: 400; }
+
+.widget_media_gallery {
+  background: #f3f6f8 none repeat scroll 0 0;
+  border: 1px solid #e9eff3;
+  margin: 0.125rem;
+  padding: 2.375rem;
+  width: 100%;
+  margin: 1.25rem 0px; }
+  .widget_media_gallery h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Avenir Next;
+    text-align: center;
+    margin-bottom: 1.25rem; }
+
+.widget_media_image {
+  background-color: darkgrey;
+  border: 1px solid darkgray;
+  padding: 2.375rem;
+  width: 100%;
+  border-radius: 0.625rem; }
+  .widget_media_image h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Avenir Next;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem; }
+
+.widget_nav_menu {
+  background-color: #f6f2f2;
+  width: 100%;
+  margin: 1.25rem 0px;
+  padding: 2.375rem;
+  border: 1px solid lightgray;
+  border-radius: 0.625rem; }
+  .widget_nav_menu h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Avenir Next;
+    padding: 1.25rem 0px;
+    border-bottom: 1px solid lightgray;
+    font-family: Avenir Next; }
+  .widget_nav_menu li {
+    border-bottom: 1px solid lightgray; }
+    .widget_nav_menu li a {
+      color: gray;
+      padding: 0.9375rem;
+      display: block; }
+
+.widget_recent_comments {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 2.375rem; }
+  .widget_recent_comments h2 {
+    color: #5a5959;
+    font-size: 1.375rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 0.9375rem; }
+  .widget_recent_comments a {
+    display: block !important;
+    line-height: 2.0625rem;
+    border-bottom: 1px solid #c3c2c2;
+    font-size: 0.875rem;
+    font-weight: normal;
+    letter-spacing: 1px; }
+
 aside {
-  padding-left: 1.25rem;
   list-style: none;
-  text-decoration: none; }
-  aside h2 {
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 1.875rem;
-    line-height: 1.875rem;
-    padding-top: 1.25rem;
-    text-transform: capitalize; }
-  aside .widget_archive h2 {
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 1.875rem;
-    line-height: 1.875rem;
-    padding-top: 1.25rem;
-    text-transform: capitalize; }
-  aside .widget_text h2 {
-    font-family: Quicksand;
-    font-weight: bold;
-    font-size: 1.875rem;
-    line-height: 1.875rem;
-    padding-top: 1.25rem;
-    text-transform: capitalize; }
-  aside caption {
-    font-family: Avenir Next;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    padding-top: 0.9375rem;
-    padding-bottom: 0.9375rem;
-    text-transform: capitalize;
-    font-weight: 900;
-    text-align: left; }
-  aside .textwidget {
-    font-family: Avenir Next;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    padding-bottom: 0.9375rem;
-    text-transform: capitalize;
-    text-align: center; }
-  aside th {
-    padding-right: 0.625rem; }
-  aside td {
-    padding-right: 0.625rem;
-    padding-bottom: 0.625rem; }
-  aside tr {
-    padding-bottom: 1.25rem; }
-  aside ul {
-    padding-top: 1.25rem; }
+  text-decoration: none;
+  margin-left: 0.9375rem;
+  width: 100%; }
   aside a {
-    font-family: Avenir Next;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    padding-top: 0.9375rem;
-    padding-bottom: 0.9375rem;
-    text-transform: capitalize;
-    font-weight: 900;
-    text-align: left; }
-  aside .widget_nav_menu h2 {
-    text-align: left; }
-  aside .menu a {
-    font-weight: 200; }
-  aside .menu li {
-    padding-bottom: 0.1875rem; }
-  aside .menu ul {
-    padding-bottom: 1.25rem; }
-  aside .widget_media_image {
-    border: 1px solid; }
-    aside .widget_media_image h2 {
-      font-family: Quicksand;
-      font-weight: bold;
-      font-size: 1.875rem;
-      line-height: 1.875rem;
-      padding-top: 1.25rem;
-      text-transform: capitalize;
-      border: 1px solid;
-      text-align: center; }
-  aside .widget_search h2 {
-    text-align: center; }
-  aside .widget_recent_comments {
-    padding-bottom: 1.25rem; }
-    aside .widget_recent_comments h2 {
-      text-align: left; }
-    aside .widget_recent_comments a {
-      font-weight: 200; }
-  aside .widget_media_video h2 {
-    text-align: left;
-    padding-bottom: 1.25rem; }
-  aside .widget_media_video a {
-    font-weight: 200; }
+    display: block; }
   @media print, screen and (min-width: 40em) {
       .row .row {
         margin-right: -0.9375rem;
@@ -1065,16 +1110,8 @@ aside {
       padding-top: 18.75rem; }
       .our-work-section .image-area-one .column .review, .our-work-section .image-area-one .columns .review {
         padding-left: 2.5rem; }
-        .our-work-section .image-area-one .column .review h3, .our-work-section .image-area-one .columns .review h3 {
-          text-align: center; }
-        .our-work-section .image-area-one .column .review p, .our-work-section .image-area-one .columns .review p {
-          text-align: center; }
       .our-work-section .image-area-two .review {
-        padding-top: 1.25rem; }
-        .our-work-section .image-area-two .review h3 {
-          text-align: center; }
-        .our-work-section .image-area-two .review p {
-          text-align: center; }
+        padding-right: 2.5rem; }
       .our-work-section .image-area-three .review {
         padding-left: 2.5rem; }
       .our-work-section .image-area-four .review {
