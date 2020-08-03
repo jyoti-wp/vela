@@ -37,26 +37,24 @@
 		height: 50px;
 		color: white;
 		display: block;
-		position: relative;
 		text-transform: capitalize;
 		font-size: 18px;
 		font-family: Avenir Next;
 		font-weight: bold;
+		margin-top: 30px;
 		border: none;
-	}
-
-	.form-area {
+		padding: 10px;
 	}
 
 	input {
 		width: 100%;
-		padding: 10px 0px;
 		font-family: Avenir Next;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 36px;
 		color: #2C3241;
+		letter-spacing: 2px;
 	}
 
 	.label {
@@ -65,5 +63,4 @@
 		font-weight: 700;
 		line-height: 30px;
 	}
-
 }

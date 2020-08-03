@@ -434,6 +434,18 @@ body {
   background-color: #fff;
   position: absolute; }
 
+footer {
+  background-color: #020E35;
+  padding: 1.25rem;
+  margin-top: 2.5rem; }
+  footer h3 {
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    color: white; }
+
 html {
   overflow-x: hidden; }
 
@@ -643,10 +655,8 @@ img {
     line-height: 3.125rem;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 3.75rem;
-    text-transform: capitalize;
-    position: relative;
-    display: inline-block; }
+    padding: 3.75rem;
+    text-transform: capitalize; }
   .our-work-section h5:after {
     content: '';
     position: absolute;
@@ -751,21 +761,22 @@ img {
     height: 3.125rem;
     color: white;
     display: block;
-    position: relative;
     text-transform: capitalize;
     font-size: 1.125rem;
     font-family: Avenir Next;
     font-weight: bold;
-    border: none; }
+    margin-top: 1.875rem;
+    border: none;
+    padding: 0.625rem; }
   .comment-section input {
     width: 100%;
-    padding: 0.625rem 0px;
     font-family: Avenir Next;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 2.25rem;
-    color: #2C3241; }
+    color: #2C3241;
+    letter-spacing: 0.125rem; }
   .comment-section .label {
     font-size: 1.125rem;
     font-family: inherit;
