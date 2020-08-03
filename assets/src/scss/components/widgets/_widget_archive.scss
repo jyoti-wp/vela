@@ -1,23 +1,32 @@
 .widget_archive {
 
     margin-top: 40px;
-
+    padding: 38px;
     background-color: #f3f6f8;
-    border: 1px solid #e9eff3;
+    width: 100%;
 
     h2 {
         color: black;
         text-transform: uppercase;
         font-size: 1.5em;
         padding: 20px;
-        width: 100%;
         margin-left: 10px;
         text-align: center;
+        font-family: Avenir Next;
     }
 
     label {
         text-transform: capitalize;
-        font-size: 15px;
         font-weight: 400;
+        font-family: Avenir Next;
+        padding: 10px;
+        font-size: 18px;
     }
+
+    .archive-dropdown {
+        font-size: 12px;
+        font-family: Avenir Next;
+        border: 1px solid gray;
+        border-radius: 8px;
+        }
 }

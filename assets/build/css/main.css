@@ -841,23 +841,30 @@ figcaption {
 
 .widget_archive {
   margin-top: 2.5rem;
+  padding: 2.375rem;
   background-color: #f3f6f8;
-  border: 1px solid #e9eff3; }
+  width: 100%; }
   .widget_archive h2 {
     color: black;
     text-transform: uppercase;
     font-size: 1.5em;
     padding: 1.25rem;
-    width: 100%;
     margin-left: 0.625rem;
-    text-align: center; }
+    text-align: center;
+    font-family: Avenir Next; }
   .widget_archive label {
     text-transform: capitalize;
-    font-size: 0.9375rem;
-    font-weight: 400; }
+    font-weight: 400;
+    font-family: Avenir Next;
+    padding: 0.625rem;
+    font-size: 1.125rem; }
+  .widget_archive .archive-dropdown {
+    font-size: 0.75rem;
+    font-family: Avenir Next;
+    border: 1px solid gray;
+    border-radius: 0.5rem; }
 
 .widget_media_gallery {
-  background: #f3f6f8 none repeat scroll 0 0;
   border: 1px solid #e9eff3;
   margin: 0.125rem;
   padding: 2.375rem;
@@ -872,7 +879,7 @@ figcaption {
     margin-bottom: 1.25rem; }
 
 .widget_media_image {
-  background-color: darkgrey;
+  background-color: #f3f6f8;
   border: 1px solid darkgray;
   padding: 2.375rem;
   width: 100%;
@@ -913,6 +920,7 @@ figcaption {
 .widget_recent_comments {
   border: 1px solid gray;
   width: 100%;
+  border-radius: 0.625rem;
   padding: 2.375rem;
   margin-bottom: 1.25rem; }
   .widget_recent_comments h2 {
@@ -928,6 +936,29 @@ figcaption {
     font-size: 0.875rem;
     font-weight: normal;
     letter-spacing: 1px; }
+
+.widget_recent_entries {
+  width: 100%;
+  padding: 2.375rem;
+  border: 1px solid pink;
+  color: #245394;
+  background-color: floralwhite;
+  border-radius: 0.625rem;
+  margin: 1.25rem 0px; }
+  .widget_recent_entries h2 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: Avenir Next;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid; }
+  .widget_recent_entries a {
+    color: #245394;
+    letter-spacing: 0.125rem;
+    padding-bottom: 0.625rem;
+    font-size: 1rem;
+    text-transform: capitalize; }
+  .widget_recent_entries span {
+    text-transform: uppercase; }
 
 .widget_text {
   width: 100%;
@@ -983,6 +1014,18 @@ figcaption {
         font-weight: 400;
         font-family: Ruluko;
         padding: 0.625rem; }
+
+.widget_media_video h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-family: Avenir Next;
+  text-align: center;
+  margin-bottom: 1.25rem; }
+
+.widget_media_video a {
+  color: lightgray;
+  text-align: center; }
 
 aside {
   list-style: none;
